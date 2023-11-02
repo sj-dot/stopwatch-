@@ -1,0 +1,56 @@
+/* Style the wrapper container */
+.wrapper {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    border: 10px solid wheat; /* Add an outline */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    margin: auto; /* Center the element horizontally */
+    width: 60%; /* Adjust the width as needed */
+  }
+  
+  
+
+  body {
+    background-image: url('java.jpg');
+    background-size: cover; /* This scales the image to cover the entire element */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+  }
+  
+  /* Style the main heading */
+  h1 {
+    font-size: 2em;
+    color: #fffdfd;
+  }
+  
+  /* Style the subheading */
+  h2 {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+  
+  /* Style the stopwatch display */
+  p {
+    font-size: 3em;
+    color: #ffffff;
+  }
+  
+  /* Style the buttons */
+  button {
+    font-size: 1em;
+    padding: 20px 40px;
+    margin: 20px;
+    background-color:none;
+    color: #010000;
+    border: #000000;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #795374;
+  }
+  
+
